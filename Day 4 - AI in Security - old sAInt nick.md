@@ -1,4 +1,4 @@
-
+# Day 4: AI in Security - old sAInt nick
 Here is the [Link to room ](https://tryhackme.com/room/AIforcyber-aoc2025-y9wWQ1zRgB)
 ### Purpose of the room: 
 Highlight ways AI can be used in a cybersecurity context, while also knowing what to keep in mind when using AI for such tasks

@@ -1,3 +1,4 @@
+# Day 22: C2 Detection - Command & Carol
 Here is the link to the [room](https://tryhackme.com/room/detecting-c2-with-rita-aoc2025-m9n2b5v8c1)
 
 ### Purpose of the room:
