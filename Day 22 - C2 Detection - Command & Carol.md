@@ -15,6 +15,7 @@ How to detect command and control (C2) traffic in network captures using Zeek an
 ### Converting PCAP files to Zeek logs
 First step we're going to take is use Zeek to parse some pcap logs.
 To list contents of the current directory, use the command `ls`. The output should resemble the following:
+
 ![](attachments/Pasted%20image%2020251223222013.png)
 
 We are currently focused on the `zeek_logs` and `pcaps` folders.
@@ -29,6 +30,7 @@ In the terminal type `zeek readpcap pcaps/AsyncRAT.pcap zeek_logs/asyncrat`
 
 To examine the logs, let's use the command `cd /home/ubuntu/zeek_logs/asyncrat && ls`
 This navigates to the `asyncrat` folder in `zeek_logs` and list its contents:
+
 ![](attachments/Pasted%20image%2020251223222815.png)
 
 If you want, you can see the contents of each file using `cat <file-name>`
@@ -99,6 +101,7 @@ The details pane also includes the `rare signature` threat modifier, indicating 
 
 Looking at the second entry:
 - We have a malicious IP
+
 ![](attachments/Pasted%20image%2020251223230502.png)
 
 - Connection duration is long
